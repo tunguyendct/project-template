@@ -58,7 +58,7 @@ export default config;
 
 ```bash
 npx husky init
-npx husky add .husky/pre-commit "npx lint-staged"
+echo "npx lint-staged" > .husky/pre-commit
 ```
 
 ### ✅ Folder Structure Example
