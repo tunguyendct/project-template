@@ -55,10 +55,9 @@ export default config;
 ```
 
 ### ✅ Step 4: Set up Husky hook
-
+#### .husky/pre-commit
 ```bash
-npx husky init
-echo "npx lint-staged" > .husky/pre-commit
+npx lint-staged
 ```
 
 ### ✅ Folder Structure Example
